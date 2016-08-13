@@ -1,0 +1,15 @@
+preset: laravel
+
+risky: false
+
+linting: true
+
+finder:
+  exclude:
+    - "tests"
+  name:
+    - "*.php"
+  not-contains:
+    - "config"
+  depth:
+    - "< 3"
