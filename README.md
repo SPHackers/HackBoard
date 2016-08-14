@@ -11,11 +11,10 @@ Please feel free to submit any PR that improves or add new features.
 ## How to contribute and install a dev instance
  
  1. Fork the original repository in your personal space
- 
   ![Fork](http://i.imgur.com/YwMGlwg.png)
 
  2. Clone the repository on your machine
-  
+ 
   `git clone git@github.com:<YOUR USERNAME>/HackBoard.git`
 
  3. Install backend packages with Composer
