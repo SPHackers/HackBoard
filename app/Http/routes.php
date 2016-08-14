@@ -17,6 +17,11 @@ Route::group(['middleware' => 'web'], function () {
     });
 });
 
-Route::group(['middleware' => 'api', 'prefix' => 'api'], function () {
-    Route::resource('task', 'TaskController');
+Route::group(['middleware' => 'api', 'prefix' => 'api/v1'], function() {
+    Route::resource('user', 'UserController');
+    Route::post('login', 'LoginController@login');
+
+    Route::group(['middleware' => 'auth:api'], function () {
+        Route::resource('task', 'TaskController');
+    });
 });

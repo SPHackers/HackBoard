@@ -37,7 +37,7 @@ class TaskController extends Controller
             'desc' => $request->input('desc'),
         ]);
 
-        return response()->json($newTask, 401);
+        return response()->json($newTask, 201);
     }
 
     /**
