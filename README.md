@@ -21,10 +21,14 @@ Please feel free to submit any PR that improves or add new features.
 
   `composer install`
   
- 4. If you're on a Mac, launch Laravel Valet (if not, configure laravel on your local webserver)
+ 4. Run the database creation and migration scripts
+
+  `php artisan migrate`
+  
+ 5. If you're on a Mac, launch Laravel Valet (if not, configure laravel on your local webserver)
  
   `valet install` and `valet park`
  
- 5. When you're done with a change, create a Pull Request toward original repo's `master` branch
+ 6. When you're done with a change, create a Pull Request toward original repo's `master` branch
  
 **Note**: All PRs must be **PSR-2 compliant**, and must pass all *Style-CI* and *Travis-CI* validations.
