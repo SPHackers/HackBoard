@@ -7,7 +7,7 @@ class TasksTest extends TestCase
     use DatabaseTransactions;
 
     /**
-     * Acceptance test GET /api/task/{id}
+     * Integration test GET /api/task/{id}
      */
     public function testFetchATask()
     {
@@ -25,7 +25,7 @@ class TasksTest extends TestCase
     }
 
     /**
-     * Acceptance test POST /api/task
+     * Integration test POST /api/task
      */
     public function testStoreNewTask()
     {
@@ -41,7 +41,7 @@ class TasksTest extends TestCase
     }
 
     /**
-     * Acceptance test DELETE /api/task/{id}
+     * Integration test DELETE /api/task/{id}
      */
     public function testDestroyTask()
     {
@@ -60,7 +60,7 @@ class TasksTest extends TestCase
     }
 
     /**
-     * Acceptance test PUT /api/task/{id}
+     * Integration test PUT /api/task/{id}
      */
     public function testUpdateTask()
     {
