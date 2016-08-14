@@ -11,12 +11,12 @@
 |
 */
 
-Route::group(['middleware' => 'web'], function() {
+Route::group(['middleware' => 'web'], function () {
     Route::get('/', function () {
         return view('home');
     });
 });
 
-Route::group(['middleware' => 'api', 'prefix' => 'api'], function() {
+Route::group(['middleware' => 'api', 'prefix' => 'api'], function () {
     Route::resource('task', 'TaskController');
 });
