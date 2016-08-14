@@ -12,7 +12,7 @@ Please feel free to submit any PR that improves or add new features.
  
  1. Fork the original repository in your personal space
  
-![asd](http://i.imgur.com/YwMGlwg.png)
+  ![Fork](http://i.imgur.com/YwMGlwg.png)
 
  2. Clone the repository on your machine
   
@@ -28,4 +28,4 @@ Please feel free to submit any PR that improves or add new features.
  
  5. When you're done with a change, create a Pull Request toward original repo's `master` branch
  
-Note: All PRs must be **PSR-2 compliant**, and must pass all *Style-CI* and *Travis-CI* validations.
+**Note**: All PRs must be **PSR-2 compliant**, and must pass all *Style-CI* and *Travis-CI* validations.
