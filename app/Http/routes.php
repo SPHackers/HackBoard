@@ -17,7 +17,7 @@ Route::group(['middleware' => 'web'], function () {
     });
 });
 
-Route::group(['middleware' => 'api', 'prefix' => 'api/v1'], function() {
+Route::group(['middleware' => 'api', 'prefix' => 'api/v1'], function () {
     Route::resource('user', 'UserController');
     Route::post('login', 'LoginController@login');
 
