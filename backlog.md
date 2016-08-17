@@ -6,15 +6,19 @@
 - First page: Login form (w/ register link)
 - Register form
 - Dashboard view (logged in)
-- List Task
-- Add a Task
-- Delete a Task
-- Edit a Task
+- [Feature: TODO] List Task
+- [Feature: TODO] Add a Task
+- [Feature: TODO] Delete a Task
+- [Feature: TODO] Edit a Task
 
 ### Back-end
 - Handle real login session (use JWT)
 - Add logout feature
 - Update to Laravel 5.3 (should be out next week)
+- [Feature: Contest] User can set an Instagram hashtag and some settings
+- [Feature: Contest] User can get some statistics on the hashtag usage (participants)
+- [Feature: Contest] User can generate/pick randomly 1 or multiple winners
+- [Feature: Contest] Apply this feature to other social medias
 
 ### Other
 - Brainstorm on any widgets or useful tool to put on the dashboard
