@@ -34,5 +34,5 @@
 - Brainstorm on any design. Bootstrap? Do we really need a design?
 
 #####**Notes**:
-- Keep things simple, we build a very simple feature and then later we'll improve its value.
+- Keep things simple, build a very simple feature and then later improve its value.
 - Remove a task from this list when completed/taken
