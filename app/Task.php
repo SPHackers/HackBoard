@@ -9,7 +9,7 @@ class Task extends Model
 {
     use Notifiable;
 
-	/**
+    /**
      * @var array
      */
     protected $fillable = [
