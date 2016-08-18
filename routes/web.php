@@ -18,5 +18,5 @@ Route::get('/', function () {
 Route::group(['prefix' => 'api/v1'], function () {
     Route::resource('task', 'TaskController');
     Route::resource('user', 'UserController');
-	Route::post('login', 'LoginController@login');
+    Route::post('login', 'LoginController@login');
 });
