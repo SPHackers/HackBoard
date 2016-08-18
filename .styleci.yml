@@ -9,6 +9,9 @@ finder:
     - "tests"
   name:
     - "*.php"
+  not-name:
+    - index.php
+    - server.php
   not-contains:
     - "config"
   depth:

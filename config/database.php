@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'fetch' => PDO::FETCH_CLASS,
+    'fetch' => PDO::FETCH_OBJ,
 
     /*
     |--------------------------------------------------------------------------
@@ -52,11 +52,11 @@ return [
             'prefix' => '',
         ],
 
-        'sqlite_test' => [
-            'driver' => 'sqlite',
-            'database' => database_path('test.sqlite'),
-            'prefix' => '',
-        ],
+		'sqlite_test' => [
+			'driver' => 'sqlite',
+			'database' => database_path('test.sqlite'),
+			'prefix' => '',
+		],
 
         'mysql' => [
             'driver' => 'mysql',
@@ -68,7 +68,7 @@ return [
             'charset' => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix' => '',
-            'strict' => false,
+            'strict' => true,
             'engine' => null,
         ],
 
@@ -82,6 +82,7 @@ return [
             'charset' => 'utf8',
             'prefix' => '',
             'schema' => 'public',
+            'sslmode' => 'prefer',
         ],
 
     ],
