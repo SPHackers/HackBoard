@@ -28,6 +28,10 @@
 - [Sports] User can see his/her favorite teams/leagues latest news
 - [TimeSheet] User can see how much time spent at work/home (with iOS locator)
 - [TimeSheet] User can see how much time spent at doing X (with other tools)
+- [Event] User can setup a favorite artists list
+- [Event] User can search for a show in an area and/or for dates
+- [Event] User can get notified when a show is announced in those filters
+
 
 ### Other
 - Brainstorm on any widgets or useful tool to put on the dashboard
