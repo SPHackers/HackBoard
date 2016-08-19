@@ -3,9 +3,6 @@
 ### Front-end
 - Front-end initialization (webpack? backbone? reactjs? etc...)
 - Initial templates (hierarchy)
-- First page: Login form (w/ register link)
-- Register form
-- Dashboard view (logged in)
 - [Feature: TODO] List Task
 - [Feature: TODO] Add a Task
 - [Feature: TODO] Delete a Task
@@ -13,7 +10,6 @@
 
 ### Back-end
 - Handle real login session (use JWT)
-- Add logout feature
 - Update to Laravel 5.3 (should be out next week)
 
 ### Features
