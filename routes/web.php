@@ -11,7 +11,9 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/', 'HomeController@index');
+
+Route::get('/home', function () {
     return view('welcome');
 });
 
@@ -20,3 +22,7 @@ Route::group(['prefix' => 'api/v1'], function () {
     Route::resource('user', 'UserController');
     Route::post('login', 'LoginController@login');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
