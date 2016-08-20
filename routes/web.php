@@ -13,10 +13,6 @@
 
 Route::get('/', 'HomeController@index');
 
-Route::get('/home', function () {
-    return view('welcome');
-});
-
 Route::group(['prefix' => 'api/v1'], function () {
     Route::resource('task', 'TaskController');
     Route::resource('user', 'UserController');
@@ -24,5 +20,3 @@ Route::group(['prefix' => 'api/v1'], function () {
 });
 
 Auth::routes();
-
-Route::get('/home', 'HomeController@index');

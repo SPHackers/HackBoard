@@ -1,7 +1,6 @@
 ## backlog
 
 ### Front-end
-- Front-end initialization (webpack? backbone? reactjs? etc...)
 - Initial templates (hierarchy)
 - [Feature: TODO] List Task
 - [Feature: TODO] Add a Task
