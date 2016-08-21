@@ -14,6 +14,8 @@ require('./bootstrap');
  */
 
 Vue.component('tasks', require('./components/Tasks.vue'));
+Vue.component('currency', require('./components/Currency.vue'));
+Vue.component('sports', require('./components/Sports.vue'));
 
 const app = new Vue({
     el: 'body'

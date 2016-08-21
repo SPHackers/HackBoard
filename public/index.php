@@ -6,7 +6,7 @@
  * @package  Laravel
  * @author   Taylor Otwell <taylor@laravel.com>
  */
-
+ini_set('always_populate_raw_post_data', -1);
 /*
 |--------------------------------------------------------------------------
 | Register The Auto Loader

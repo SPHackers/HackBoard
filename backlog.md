@@ -1,15 +1,13 @@
 ## backlog
 
 ### Front-end
-- Initial templates (hierarchy)
-- [Feature: TODO] List Task
-- [Feature: TODO] Add a Task
-- [Feature: TODO] Delete a Task
 - [Feature: TODO] Edit a Task
+- Write JavaScript unit tests
 
 ### Back-end
 - Handle real login session (use JWT)
 - Update to Laravel 5.3 (should be out next week)
+- Write some php unit tests
 
 ### Features
 - [Contest] User can set an Instagram hashtag and some settings
