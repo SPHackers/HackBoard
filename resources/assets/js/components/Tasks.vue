@@ -4,19 +4,23 @@
             <div class="panel-heading">Tasks</div>
 
             <div class="panel-body">
-                <table class="table">
-                    <tr>
-                        <th width="5%">ID</th>
-                        <th width="80%">Title</th>
-                        <th width="15%"></th>
-                    </tr>
-                    <tr v-for="task in tasks">
-                        <td>{{task.id}}</td>
-                        <td>{{task.title}}</td>
-                        <td>
-                            <button v-on:click="deleteTask(task)" type="button" class="btn btn-default">Delete</button>
-                        </td>
-                    </tr>
+                <table class="table table-condensed">
+                    <thead>
+                        <tr>
+                            <th width="5%">ID</th>
+                            <th width="80%">Title</th>
+                            <th width="15%"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr v-for="task in tasks">
+                            <td>{{task.id}}</td>
+                            <td>{{task.title}}</td>
+                            <td>
+                                <button v-on:click="deleteTask(task)" type="button" class="btn btn-default">Delete</button>
+                            </td>
+                        </tr>
+                    </tbody>
                 </table>
                 <form v-on:submit="onSubmitForm" class="form-inline">
                     <div class="form-group">
