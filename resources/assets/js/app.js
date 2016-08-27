@@ -17,6 +17,7 @@ Vue.component('tasks', require('./components/Tasks.vue'));
 Vue.component('currency', require('./components/Currency.vue'));
 Vue.component('sports', require('./components/Sports.vue'));
 Vue.component('github', require('./components/GitHub.vue'));
+Vue.component('news', require('./components/News.vue'));
 
 const app = new Vue({
     el: 'body'
