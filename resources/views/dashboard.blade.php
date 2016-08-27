@@ -10,6 +10,10 @@
         <div class="row">
             <sports></sports>
         </div>
+        <div class="row">
+            <github></github>
+            <news></news>
+        </div>
     </div>
 </div>
 @endsection
